@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Vidhi Shah — BSc IT student exploring web development, artificial intelligence, data science, and thoughtful digital experiences." />
+  <title>Vidhi Shah | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#home" aria-label="Vidhi home">VIDHI<span>.</span></a>
+      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to dark mode">Dark mode</button>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">BSC IT STUDENT · ASPIRING DEVELOPER</p>
+        <h1>Building thoughtful <span>digital experiences.</span></h1>
+        <p class="hero-description">Hi, I'm Vidhi Shah. I'm an IT student exploring web development, artificial intelligence and data science. I enjoy learning new technologies and turning ideas into useful digital solutions.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore My Work</a>
+          <a class="button button-secondary" href="#contact">Contact Me</a>
+        </div>
+        <p class="hero-note">Curious mind. Creative thinking. Continuous learning.</p>
+      </div>
+
+      <div class="code-visual" aria-label="A code card introducing Vidhi">
+        <div class="code-halo"></div>
+        <div class="code-card">
+          <div class="code-topbar">
+            <div class="window-dots"><i></i><i></i><i></i></div>
+            <span>my-journey.js</span>
+          </div>
+          <div class="code-content">
+            <p class="code-comment">// A little about me</p>
+            <p><span class="syntax-purple">const</span> <span class="syntax-teal">developer</span> = {</p>
+            <p class="code-indent">name: <span class="syntax-string">"Vidhi Shah"</span>,</p>
+            <p class="code-indent">field: <span class="syntax-string">"Information Technology"</span>,</p>
+            <p class="code-indent">interests: [<span class="syntax-string">"Web"</span>, <span class="syntax-string">"AI"</span>, <span class="syntax-string">"Data"</span>],</p>
+            <p class="code-indent">mindset: <span class="syntax-string">"Always learning"</span></p>
+            <p>};</p>
+            <div class="progress-track"><span></span></div>
+            <p class="progress-caption">My journey is just getting started.</p>
+          </div>
+        </div>
+        <span class="visual-spark spark-one">.</span><span class="visual-spark spark-two">.</span>
+      </div>
+
+      <div class="quick-stats" aria-label="Portfolio overview">
+        <div><strong>03</strong><span>Featured projects</span></div>
+        <div><strong>06</strong><span>Areas of learning</span></div>
+        <div><strong>∞</strong><span>Ideas to explore</span></div>
+      </div>
+    </section>
+
+    <section class="section-shell about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">A LITTLE ABOUT ME</p>
+        <h2>Learning by <span>building.</span></h2>
+      </div>
+      <div class="about-grid">
+        <p class="about-lead">I’m a BSc IT student interested in the space where technology solves real problems.</p>
+        <div class="about-detail">
+          <p>From workflow automation to healthcare-focused AI concepts, I like exploring how thoughtful software can make complex tasks clearer, faster, and more reliable.</p>
+          <p>Right now, I’m strengthening my foundations in web development, programming, data science, and machine learning—one project at a time.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+      <div class="section-shell">
+        <div class="section-heading projects-heading">
+          <div>
+            <p class="eyebrow">SELECTED WORK</p>
+            <h2>Projects with <span>a purpose.</span></h2>
+          </div>
+          <p class="heading-aside">A few things I've been exploring, designing, and building.</p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="project-number">PROJECT 01 <span>WORKFLOW AUTOMATION</span></div>
+            <div class="project-art art-automation" aria-hidden="true">
+              <div class="flow-node node-a">Feedback</div><div class="flow-line line-a"></div>
+              <div class="flow-node node-b">AI analysis</div><div class="flow-line line-b"></div>
+              <div class="flow-node node-c">Insights</div>
+            </div>
+            <h3>n8n Feedback Analyser</h3>
+            <p>An automated event-feedback workflow that turns raw responses into useful, organised insights. It classifies sentiment, identifies feedback categories, assigns priority, and suggests practical next actions.</p>
+            <div class="tag-list"><span>n8n</span><span>AI</span><span>Workflow automation</span><span>Sentiment analysis</span></div>
+            <div class="project-footer"><span>Automation · Feedback intelligence</span><a href="#contact" aria-label="Ask me about n8n Feedback Analyser">Discuss project <span>↗</span></a></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">PROJECT 02 <span>PHARMACOVIGILANCE</span></div>
+            <div class="project-art art-safety" aria-hidden="true">
+              <div class="safety-ring"><span>SR</span></div>
+              <div class="safety-metric metric-one"><small>Signal review</small><strong>PRR</strong></div>
+              <div class="safety-metric metric-two"><small>Readiness</small><strong>CTD</strong></div>
+              <div class="safety-line"></div>
+            </div>
+            <h3>SafetyReady</h3>
+            <p>A full-stack pharmacovigilance and submission-readiness platform. It analyses FAERS-style adverse-event reports with a deterministic PRR pipeline and 95% confidence intervals, then checks dossier outlines against a versioned ICH CTD requirements catalog to highlight gaps and recommend next steps.</p>
+            <div class="tag-list"><span>Python</span><span>Data analysis</span><span>Drug safety</span><span>ICH CTD</span><span>Offline workflows</span></div>
+            <div class="project-footer"><span>Safety signals · Dossier readiness</span><a href="#contact" aria-label="Ask me about SafetyReady">Discuss project <span>↗</span></a></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-number">PROJECT 03 <span>HEALTHCARE INTELLIGENCE</span></div>
+            <div class="project-art art-health" aria-hidden="true">
+              <div class="health-window">
+                <div class="health-window-top"><i></i><i></i><i></i><span>Evidence review</span></div>
+                <div class="health-row"><b></b><span></span><em>Verified</em></div>
+                <div class="health-row"><b></b><span></span><em>Review</em></div>
+                <div class="health-row"><b></b><span></span><em>Flagged</em></div>
+              </div>
+              <div class="health-orbit"></div>
+            </div>
+            <h3>Healthcare Claims Intelligence</h3>
+            <p>An AI-powered system designed to investigate healthcare claims, validate the evidence behind them, and detect suspicious or inconsistent healthcare activity using live web intelligence, with TinyFish integration for web-based research and evidence gathering.</p>
+            <div class="tag-list"><span>AI</span><span>Evidence validation</span><span>Web intelligence</span><span>TinyFish</span></div>
+            <div class="project-footer"><span>Healthcare · Research assistance</span><a href="#contact" aria-label="Ask me about Healthcare Claims Intelligence">Discuss project <span>↗</span></a></div>
+          </article>
+        </div>
+        <p class="project-disclaimer">Project descriptions reflect the intended functionality. Add repository or live-demo links when they are ready to share.</p>
+      </div>
+    </section>
+
+    <section class="section-shell skills-section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I'M EXPLORING</p>
+        <h2>Skills in <span>progress.</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-item"><span class="skill-index">01</span><div><h3>Web development</h3><p>HTML · CSS · JavaScript</p></div></div>
+        <div class="skill-item"><span class="skill-index">02</span><div><h3>Programming</h3><p>Building logic and problem-solving foundations</p></div></div>
+        <div class="skill-item"><span class="skill-index">03</span><div><h3>Artificial intelligence</h3><p>Exploring AI tools and practical applications</p></div></div>
+        <div class="skill-item"><span class="skill-index">04</span><div><h3>Data science</h3><p>Working with data, patterns, and insights</p></div></div>
+        <div class="skill-item"><span class="skill-index">05</span><div><h3>Workflow automation</h3><p>Connecting steps into useful processes</p></div></div>
+        <div class="skill-item"><span class="skill-index">06</span><div><h3>UI and UX thinking</h3><p>Clear, accessible, purposeful interfaces</p></div></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="section-shell contact-inner">
+        <div>
+          <p class="eyebrow">LET'S CONNECT</p>
+          <h2>Have an idea?<br><span>Let's talk.</span></h2>
+          <p class="contact-copy">I'm always happy to connect with people who enjoy learning, building, and exploring new ideas.</p>
+        </div>
+        <div class="contact-panel">
+          <p>Interested in a project, collaboration, or simply saying hello?</p>
+          <!-- Replace the placeholder email below with your preferred email address. -->
+          <a class="button button-primary" href="mailto:your.email@example.com">Email me <span>↗</span></a>
+          <p class="contact-hint">Update this email link in index.html before publishing your portfolio.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-shell footer-inner"><a class="brand" href="#home">VIDHI<span>.</span></a><p>Designed with intention. Built while learning.</p><a href="#home" class="back-top">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
